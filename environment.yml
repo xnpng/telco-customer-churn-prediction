@@ -1,0 +1,20 @@
+name: churn-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - shap
+      - optuna
+      - category_encoders
+      - lightgbm
+      - xgboost
+      - pandas-profiling
