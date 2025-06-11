@@ -3,5 +3,10 @@ data/raw/
 models/
 *.pkl
 *.joblib
-*.ipynb_checkpoints
+
+# Jupyter notebook junk
+*.ipynb_checkpoints/
+
+# Environment
 .env
+.venv/
