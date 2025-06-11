@@ -1,4 +1,7 @@
-# Ignore raw data and models
+# Ignore raw data and model binaries
 data/raw/
-data/processed/
 models/
+*.pkl
+*.joblib
+*.ipynb_checkpoints
+.env
